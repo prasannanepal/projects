@@ -1,0 +1,5 @@
+In this project the robot is controlled through wifi based. In which initially the the esp8266 connect with the hotspot send form the mobile(The hotspot can be replaced with any router also just the ssid and passowrd should be replaced in code.) 
+Then, the obtain ip address should be entered in the browser after that the webpage is displayed in the browser. Then when button is pressed the given function is executed. Such as if I pressed the forwad button then the robot moves forward, and so on. 
+In this robot when the forward button is pressed the ultrasonic sensor initially check the obstacle around it and if no obstacle is dected in around 25cm then the robot moves forward for the allocated delay and then stop the robot. Whereas if it detects the obstacle then the robot moves backward and also the buzzer gets on and then after the allocated time the robot moves forward and stopped.
+And so on for the botton for right left and backward.
+In this way the dc motor is controlled using esp8266 and for the driver circuit we have use monster shield.
