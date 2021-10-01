@@ -1,5 +1,5 @@
 #include <ESP8266WiFi.h>
-
+//change your ssid and password here
 const char* ssid = "PrasannaNepal";
 const char* password = "Nepal123";
 
